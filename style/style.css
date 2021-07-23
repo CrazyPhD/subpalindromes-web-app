@@ -71,6 +71,9 @@ body {
 	font: normal normal normal 14px/15px "Montserrat Regular";
 	letter-spacing: -0.28px;
 	margin-bottom: 20px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 .form__input:focus {
@@ -92,6 +95,9 @@ body {
 	padding: 0;
 	display: block;
 	margin-bottom: 50px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 .form__btn:focus {
