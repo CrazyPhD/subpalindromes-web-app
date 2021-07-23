@@ -132,6 +132,7 @@ body {
 }
 
 .result__list {
+	text-transform: capitalize;
 	list-style-position: inside;
 	padding: 0;
 	margin: 0;
