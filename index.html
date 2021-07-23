@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Поиск палиндромов</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" href="./style/fonts.css" />
+		<link rel="stylesheet" href="./style/style.css" />
+		<link rel="stylesheet" href="./style/mobile.css" />
+		<script src="./js/process.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header__logo">
+				<div class="logo__m"></div>
+			</div>
+		</div>
+		<div class="body">
+			<form name="process_form" class="body__form">
+				<div class="form__title">
+					<span>Приложение</span>
+				</div>
+				<div class="form__subtitle">
+					<span>Веб-приложение, которое находит палиндромы</span>
+				</div>
+				<input id="phrase" class="form__input" type="text" name="phrase" placeholder="палиндром" />
+				<input id="find" class="form__btn" type="submit" name="find" value="Найти" />
+				<div id="result" class="body__result hidden">
+					<div id="result_summary" class="result__summary"></div>
+					<ol id="result_list" class="result__list"></ol>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

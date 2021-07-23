@@ -1,0 +1,17 @@
+/* For most of the mobile devices. */
+@media (max-width: 768px) {
+	.header__logo {
+		left: 15px;
+	}
+	
+	.body__form {
+		width: 320px;
+	}
+}
+
+/* Galaxy Fold etc. width <= 330 */
+@media (max-width: 330px) {
+	.body__form {
+		width: 270px;
+	}
+}
