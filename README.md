@@ -1,3 +1,3 @@
-An web app, which finding all palindromes in word/phrase using Manacher's algorithm
+A web application that finds all palindromes in a word/phrase using Manacher’s algorithm.
 
-[DEMO](https://crazydoctor.ru/subpalindromes/)
+[DEMO](http://crazydoctor.ru/subpalindromes/)
